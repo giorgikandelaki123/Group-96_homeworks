@@ -2,11 +2,12 @@
 const sityvebi = ["gamarjoba", "naxvamdis", "semodit", "gadit"]
 const sityva = sityvebi.map(sityveb => sityveb[sityveb.length])
 
-// 2
-const ragac = [1, 3.67, "javascripti", false, "gamarjoba", 100]
+// 2 დაწერეთ filter, რომელიც [1, 3.14, 'javaScript', true, 'Hello World', 82]
+//  მასივს გაფილტრავს და ახალ სიაში დატოვებს მხოლოდ სტრინგ მონაცემებს
+const ragac = [1, 3.14, "javascripti", true, "Hello Word", 82]
 const stingebi = ragac.filter(nivti => typeof nivti === "string")
 
-// 3
+// 3 findIndex მეთოდით სიტყვების მასივიდან დააბრუნეთ იმ ელემენტის ინდექსი, რომელიც ასო 'L' ზე იწყება.
 const sityv = ["hello", "java", "world", "life"]
 sityv.findIndex((sityaa, index) => {
     if (sityaa.startsWith("L")) {
