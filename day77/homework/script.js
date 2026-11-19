@@ -3,6 +3,8 @@ function isEven(num) {
     return num % 2 === 0
 }
 
+console.log(10)
+
 // 2
 function findMax(a, b) {
     if (a > b) {
@@ -115,19 +117,7 @@ function capitalizeWords(sentence) {
 }
 
 // 11
-function areAnagrams(str1, str2) {
-    let arr1 = str1.split("").sort()
-    let arr2 = str2.split("").sort()
+// ver gavige
 
-    if (arr1.length !== arr2.length) {
-        return false
-    }
-
-    for (let i = 0; i < arr1.length; i++) {
-        if (arr1[i] !== arr2[i]) {
-            return false
-        }
-    }
-
-    return true
-}
+// 12
+// ver gavige
